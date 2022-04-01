@@ -87,7 +87,14 @@ img {
 
   #lezioni .row>.left,
   #lezioni .row>.right {
-  width: 100%;
+  width:50%;
+  }
+
+  #lezioni .row img {
+    /* per centrare orizzontalmente */
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   h1 {
